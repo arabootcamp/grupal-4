@@ -1,0 +1,11 @@
+<!-- pendientes.handlebars -->
+    {{#if tasks.length}}
+      <h1>Tareas pendientes:</h1>
+      <ul>
+        {{#each tasks}}
+          <li>{{description}}</li>
+        {{/each}}
+      </ul>
+    {{else}}
+      <p>{{message}}</p>
+    {{/if}}

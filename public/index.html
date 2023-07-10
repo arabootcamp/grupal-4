@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/axios@1.4.0/dist/axios.min.js"></script>
+  <link rel="stylesheet" href="./assets/css/styles.css">
+  <title>Sitio estatico</title>
+</head>
+
+<body>
+  <main class="container bg-black color-white center">
+    <section class="d-inline-block">
+      <h1>Black and White Spa</h1>
+      <form action="/upload-img" method="POST" class="mt-1">
+        <label for="url_img" class="">Imagen URL:</label><br>
+        <input id="url_img" class="mt-05" type="text" name="url_img" placeholder="https://abc.cl" required><br>
+        <button type="submit" class="mt-05">Subir imagen al servidor</button>
+      </form>
+    </section>
+  </main>
+</body>
+
+</html>
